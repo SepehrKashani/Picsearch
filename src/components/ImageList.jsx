@@ -1,5 +1,5 @@
 import "./ImageList.css";
-import React, { Component } from "react";
+import React from "react";
 
 import ImageCard from "./ImageCard";
 

@@ -13,6 +13,7 @@ class App extends Component {
     const response = await unsplash.get("search/photos", {
       params: {
         query: term,
+        per_page: 30,
       },
     });
     // console.log(response.data.results);
